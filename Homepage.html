@@ -1,29 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Student Portal</title>
+<title>Student Portal</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin: 0;
+    background: #f2f2f2;
+}
+header{
+    background: #198754;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav{
+    background: #333;
+    text-align: center;
+    padding: 12px;
+}
+nav a{
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 160px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px gray;
+}
+.card a{
+    color: #198754;
+    text-decoration: none;
+}
+</style>
 </head>
 
 <body>
 
+<header>
     <h1>Student Portal</h1>
+</header>
 
-    <h2>Home Page</h2>
+<nav>
+    <a href="Homepage.html">Home</a>
+    <a href="Aboutus.html">About Us</a>
+    <a href="Login.html">Login</a>
+</nav>
 
-    <a href="#">About Us</a><br>
-    <a href="#">Login</a><br>
-    <a href="#">New Account</a>
+<h2>Student Services</h2>
 
-    <h2>Student Services</h2>
+<div class="container">
 
-    <ul>
-        <li>Time Table</li>
-        <li>Attendance</li>
-        <li>Profile</li>
-        <li>Result</li>
-        <li>Fee Details</li>
-        <li>Achievement</li>
-    </ul>
+    <div class="card">
+        <h3>📅 Time Table</h3>
+        <a href="Time Table.html">View</a>
+    </div>
+
+    <div class="card">
+        <h3>📊 Attendance</h3>
+        <a href="Attendance.html">View</a>
+    </div>
+
+    <div class="card">
+        <h3>👤 Profile</h3>
+        <a href="Profile.html">View</a>
+    </div>
+
+    <div class="card">
+        <h3>📚 Result</h3>
+        <a href="Results.html">View</a>
+    </div>
+
+    <div class="card">
+        <h3>💳 Fees</h3>
+        <a href="Feesdetails.html">View</a>
+    </div>
+
+    <div class="card">
+        <h3>🏆 Achievement</h3>
+        <a href="Achievement.html">View</a>
+    </div>
+
+</div>
 
 </body>
 </html>
